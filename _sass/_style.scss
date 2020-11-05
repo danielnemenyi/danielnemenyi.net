@@ -1,4 +1,4 @@
-$primary-color: blue;
+$primary-color: magenta;
 $font-family-mono: SFMono-Regular,Consolas,DejaVu Sans Mono,Liberation Mono,Menlo,monospace;
 $font-size-desktop: 14px;
 $font-size-mobile: 12px;
@@ -147,12 +147,12 @@ a {
   color: $primary-color;
   &:hover {
     color: black !important;
-    background: #fffaf1;
+    background: #f1fff0;
   }
   &:after {
     position: relative;
     top: -0.5em;
-    content: "↗";
+    content: "📡";
     color: #aaaaaa;
   }
   &.internal-link:after {
@@ -161,8 +161,8 @@ a {
 }
 
 *:focus {
-  background: #ffe8bc !important;
-  color: black !important;
+  background: magenta !important;
+  color: white !important;
 }
 
 nav {
