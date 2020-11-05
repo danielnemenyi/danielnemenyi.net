@@ -70,7 +70,11 @@ permalink: /
 	        <span class="faded">{{ publication.month }} {{ publication.year }}</span>
 		</div>
 
-	   <div class="faded"><em>{{ publication.publisher }}</em> {{ publication.note }}</div>
+	   <div class="faded"><em>{{ publication.publisher }}</em></div>
+
+	   {% if publication.note %}
+		   <div class="faded">{{ publication.note }}</div>
+	   {% endif %}
 
 
         <div>{{ publication.description_html }}</div>
