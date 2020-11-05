@@ -1,9 +1,11 @@
 - name: Radical Philosophy
   description_html: "Member of journal's editorial collective and lead its technical stuff"
   url: https://www.radicalphilosophy.com
-  date: 2020-07-01
+  year_from: 2012
+  year_to:
 
 - name: Okey_Kompyuter
-  description_html: "Developing Yiddish tech, including a Yiddish keyboard layout for Windows and macOS"
+  description_html: "Developing Yiddish tech, including a keyboard layout for Windows and macOS. Formerly called Shretl.org"
   url: https://okey.kompyuter.net/
-  date: 2020-07-01
+  year_from: 2010
+  year_to:
