@@ -41,8 +41,8 @@ permalink: /
       {% assign talk_limit = 6 %}
       {% for talk in site.data.talks limit: talk_limit %}
       <div class="list-entry">
-        <div>{{ talk.date | date: "%-d %b %Y" }}: <a class="internal-link" href="{{ talk.url }}">{{ talk.title }}</a> <span class="faded">{{ talk.event }}, {{ talk.location }}</span></div>
-        <div>{{ talk.excerpt }}</div>
+        <div>{{ talk.date | date: "%-d %b %Y" }}: <a class="internal-link" href="{{ talk.url }}">{{ talk.title }}</a></div>
+        <div class="faded">{{ talk.event }}, {{ talk.location }}</div>
       </div>
       {% endfor %}
 
@@ -67,12 +67,13 @@ permalink: /
 			{{ publication.title }}
 		{% endif %}
 
-		<span class="faded"><em>{{ publication.publisher }}</em> {{ publication.month }} {{ publication.year }}
-		{% if publication.note %}
-			({{ publication.note }})
-		{% endif %}
-		</span></div>
-        <div>{{ podcast.description_html }}</div>
+	        <span class="faded">{{ publication.month }} {{ publication.year }}</span>
+		</div>
+
+	   <div class="faded"><em>{{ publication.publisher }}</em> {{ publication.note }}</div>
+
+
+        <div>{{ publication.description_html }}</div>
       </div>
       {% endfor %}
 
