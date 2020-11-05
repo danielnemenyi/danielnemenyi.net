@@ -30,10 +30,12 @@ means simple files which I write in and a programme which turns them
 all into an HTMLified blog. And no database and no hosting and no
 Wordpress or being hacked. And its all mine. Written in Emacs. Hosted
 on <a target="_blank" rel="noopener"
-href="https://www.netlify.com/">Netlify</a> via Gitlab. Huge thanks to
+href="https://www.netlify.com/">Netlify</a> via Github. Huge thanks to
 <a target="_blank" rel="noopener"
 href="https://maximevaillancourt.com/"> Maxime Vaillancourt</a> whose
 website you'll see bears a certain resemblance: thank you Maxime for
 <a target="_blank" rel="noopener"
 href="https://github.com/maximevaillancourt/maximevaillancourt.com">
-sharing your code</a>; in turn I share mine.
+sharing your code</a>; in turn <a target="_blank" rel="noopener"
+href="https://github.com/danielnemenyi/danielnemenyi.net">I share
+mine</a>.
