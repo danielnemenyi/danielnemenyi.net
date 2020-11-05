@@ -1,6 +1,7 @@
-# maximevaillancourt.com
 
-This is the source for my personal website, [maximevaillancourt.com](http://www.maximevaillancourt.com/). It is powered by [Jekyll](http://jekyllrb.com), a static site generator. It is automatically deployed to [Netlify](https://www.netlify.com/).
+# danielnemenyi.net
+
+This is the source for my personal website, [danielnemenyi.net](https://danielnemenyi.net). It is powered by [Jekyll](http://jekyllrb.com), a static site generator and is forked from the blog of [Maxime Vaillancourt](https://github.com/maximevaillancourt/maximevaillancourt.com) . It is automatically deployed to [Netlify](https://www.netlify.com/).
 
 ## Local set up
 
