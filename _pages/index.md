@@ -8,31 +8,42 @@ permalink: /
 
 <div>
   <p>
-    <b>Maxime Vaillancourt 👨‍💻</b>
+    <b>Dr Daniel Nemenyi 🙋🏻‍♂️</b>
   </p>
 
   <p>
-    Hello! I work on the storefront team at <a target="_blank" rel="noopener" href="https://www.shopify.ca/">Shopify</a>, where I'm a senior software developer. I care about empowering engineering teams and building software that respects people. Areas of interest include digital well-being, privacy, sustainability, and note-taking. My pronouns are he/him. I'm active on <a title='GitHub' rel="me" target="_blank" rel="noopener" href="https://github.com/maximevaillancourt/">GitHub</a> and <a title='Twitter' rel="me" target="_blank" rel="noopener" href="https://twitter.com/vaillancourtmax">Twitter</a> (direct messages are open 👋) 
+    Hi! I teach in the <a target="_blank" rel="noopener" href="https://www.kcl.ac.uk/people/daniel-nemenyi">Department of Digital Humanities</a>, King's College London, and I'm an editor of the journal <a target="_blank" rel="noopener" href="https://www.radicalphilosophy.com/">Radical Philosophy</a>. I completed my MA and PhD at the <a target="_blank" rel="noopener" href="https://www.kingston.ac.uk/faculties/kingston-school-of-art/research-and-innovation/crmep/">Centre for Research in Modern European Philosophy (CRMEP)</a> at Kingston University, calling my thesis <em>What is an internet? Norbert Wiener and the society of control</em> (2019). I enjoy writing about code, especially its conceptual history, and writing in code, especially in LaTeX, Python and Emacs. My pronouns are he/him. I'm sporadically active on <a target="_blank" rel="noopener" href="https://twitter.com/DanielNemenyi">Twitter</a>, <a target="_blank" rel="noopener" href="https://gitlab.com/klinamen0">Gitlab</a> and <a target="_blank" rel="noopener" href="https://github.com/danielnemenyi">GitHub</a> (direct messages are open 👋).
   </p>
 
   <div>
     <div class="grid-element">
-      <p><b>Podcast appearances 🎙️</b></p>
+      <p><b>Publications 🖊</b></p>
 
-      {% assign podcast_limit = 2 %}
-      {% for podcast in site.data.podcasts limit: podcast_limit %}
+      {% assign publications_limit = 5 %}
+      {% for publication in site.data.publications limit: publications_limit %}
       <div class="list-entry">
-        <div><a target="_blank" rel="noopener" href="{{ podcast.url }}">{{ podcast.name }}</a> <span class="faded">({{ podcast.date | date: "%Y-%m-%d" }})</span></div>
+        <div>
+		{% if publication.url %}
+			<a target="_blank" rel="noopener" href="{{ publication.url }}">{{ publication.title }}</a>
+		{% else %}
+			{{ publication.title }}
+		{% endif %}
+
+		<span class="faded"><em>{{ publication.publisher }}</em> {{ publication.month }} {{ publication.year }}
+		{% if publication.note %}
+			({{ publication.note }})
+		{% endif %}
+		</span></div>
         <div>{{ podcast.description_html }}</div>
       </div>
       {% endfor %}
 
-      {% assign additional_podcasts = site.data.podcasts.size | minus: podcast_limit %}
-      {% if additional_podcasts > 0 %}
+      {% assign additional_publications = site.data.publications.size | minus: publications_limit %}
+      {% if additional_publications > 0 %}
       <div>
-        <p>
-          <a class="internal-link" href="/podcasts">
-            View all podcasts ({{ additional_podcasts }} more podcasts)
+        <p>{{ additional_publications }}
+          <a class="internal-link" href="/publications">
+            View all publications ({{ additional_publications }} more publications)
           </a>
         </p>
       </div>
@@ -55,7 +66,7 @@ permalink: /
     </div>
 
     <div class="grid-element">
-      <p><b>Side projects 👨‍💻</b></p>
+      <p><b>Projects 🎣</b></p>
 
       {% assign project_limit = 4 %}
       {% for project in site.data.projects limit: project_limit %}
