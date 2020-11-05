@@ -52,17 +52,22 @@ permalink: /
 
     <div class="grid-element">
       <p><b>Blog 📝</b></p>
-      {% assign post_limit = 7 %}
+      {% assign post_limit = 6 %}
       {% for post in site.posts limit: post_limit %}
       <div class="list-entry">
         <div><a class="internal-link" href="{{ post.url }}">{{ post.title }}</a> <span class="faded">({{ post.date | date: "%Y-%m-%d" }})</span></div>
         <div>{{ post.excerpt }}</div>
       </div>
       {% endfor %}
+
+	  {% assign additional_posts = site.posts.size | minus: post_limit %}
+	  {% if additional_posts > 0 %}
       <p>
         <a class="internal-link" href="/blog">I wrote {{ site.posts.size | minus: post_limit }} more posts</a>.
         This blog is also available as <a class="internal-link" target="_blank" href="/rss.xml">RSS</a> and <a class="internal-link" target="_blank" href="/feed.json">JSON</a> feeds.
       </p>
+	  {% endif %}
+
     </div>
 
     <div class="grid-element">
