@@ -19,6 +19,8 @@ layout: default
 
   <br>
 
+  {% if site.posts.size > 1 %}
+
   <h3>Recent posts</h3>
 
   <div>
@@ -33,14 +35,16 @@ layout: default
     </div>
     {% endfor %}
   </div>
+  {% endif %}
 
   <footer>
     <div>Blog feed available as <a target="_blank" class="internal-link" href="/rss.xml">RSS</a> or <a target="_blank"
         class="internal-link" href="/feed.json">JSON</a> feeds.</div>
     <div class="social">
       I'm also on
-      <a title='Twitter' target="_blank" rel="noreferrer" href="https://twitter.com/vaillancourtmax">Twitter</a> and
-      <a title='GitHub' target="_blank" rel="noreferrer" href="https://github.com/maximevaillancourt/">GitHub</a>.
+      <a title='Twitter' target="_blank" rel="noreferrer" href="https://twitter.com/danielnemenyi">Twitter</a>,
+      <a title='GitHub' target="_blank" rel="noreferrer" href="https://github.com/danielnemenyi">GitHub</a> and
+      <a title='GitLab' target="_blank" rel="noreferrer" href="https://gitlab.com/klinamen0">GitLab</a>.
     </div>
   </footer>
 </div>
