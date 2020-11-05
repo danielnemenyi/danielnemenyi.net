@@ -39,3 +39,5 @@ href="https://github.com/maximevaillancourt/maximevaillancourt.com">
 sharing your code</a>; in turn <a target="_blank" rel="noopener"
 href="https://github.com/danielnemenyi/danielnemenyi.net">I share
 mine</a>.
+
+So welcome. Welcome to *my blog!*
