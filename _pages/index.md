@@ -23,7 +23,7 @@ permalink: /
       {% for post in site.posts limit: post_limit %}
       <div class="list-entry">
         <div><a class="internal-link" href="{{ post.url }}">{{ post.title }}</a> <span class="faded">({{ post.date | date: "%-d %b %Y" }})</span></div>
-        <div>{{ post.excerpt }}</div>
+        <div>{{ post.subtitle }}</div>
       </div>
       {% endfor %}
 
