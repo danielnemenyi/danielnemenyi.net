@@ -1,9 +1,7 @@
 ---
 layout: post
 title: "Hello world!"
-slug: "hello-world"
-name: "hello-world"
-excerpt: Launching my blog
+subtitle: Launching my blog
 ---
 
 Years, a decade perhaps, certainly *far too long* in the making. In
