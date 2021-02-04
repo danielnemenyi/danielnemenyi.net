@@ -12,6 +12,7 @@ relative_permalinks: false
 plugins:
   - jekyll-redirect-from
   - jekyll-last-modified-at
+  - jekyll-sitemap
 
 sass:
   sass_dir:          _sass
