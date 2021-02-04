@@ -7,19 +7,20 @@ layout: default
 
 <div class="post-wrapper">
   <article class="post">
-    <div class="post-heading">
+    <header>
       <h1 class="post-title">{{ page.title }}</h1>
+      <p><em>{{ page.subtitle}}</em></p>
       <time datetime="{{ page.date | date_to_xmlschema }}" class="faded">{% if page.type != 'pages' %}
         {{ page.date | date: "%B %-d, %Y" }}
         {% endif %}
       </time>
-    </div>
+    </header>
     {{ content }}
   </article>
 
   <br>
 
-  {% if site.posts.size > 1 %}
+  {% if site.posts.size > 5 %}
 
   <h3>Recent posts</h3>
 
