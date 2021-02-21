@@ -76,7 +76,7 @@ faster, wilder and wilder.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yPQbcAW9A2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Not without the pain. Through it.
+Not without pain. Through it.
 
 
 ## Notes
