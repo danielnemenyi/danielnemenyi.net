@@ -41,8 +41,8 @@ permalink: /
       {% assign talk_limit = 6 %}
       {% for talk in site.data.talks limit: talk_limit %}
       <div class="list-entry">
-        <div>{{ talk.date | date: "%-d %b %Y" }}: <a class="internal-link" href="{{ talk.url }}">{{ talk.title }}</a></div>
-        <div class="faded">{{ talk.event }}, {{ talk.location }}</div>
+        <div>{{ talk.date | date: "%-d %b %Y" }}: {{ talk.title }} <a class="internal-link" href="{{ talk.url }}">{{ talk.url-title }}</a></div>
+        <div class="faded">@ {{ talk.event }}, {{ talk.location }}</div>
       </div>
       {% endfor %}
 
