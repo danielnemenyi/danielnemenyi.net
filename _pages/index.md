@@ -11,9 +11,25 @@ permalink: /
     <b>Dr Daniel Nemenyi 🙋🏻‍♂️</b>
   </p>
 
-  <p>
-    Hi! I teach in the <a target="_blank" rel="noopener" href="https://www.kcl.ac.uk/people/daniel-nemenyi">Department of Digital Humanities</a>, King's College London, and I'm an editor of the journal <a target="_blank" rel="noopener" href="https://www.radicalphilosophy.com/">Radical Philosophy</a>. I completed my MA and PhD at the <a target="_blank" rel="noopener" href="https://www.kingston.ac.uk/faculties/kingston-school-of-art/research-and-innovation/crmep/">Centre for Research in Modern European Philosophy (CRMEP)</a> at Kingston University, calling my thesis <em>What is an internet? Norbert Wiener and the society of control</em> (2019). I enjoy writing about code, especially its conceptual history, and writing in code, especially in LaTeX, Python and Emacs. My pronouns are he/him. I'm sporadically active on <a target="_blank" rel="noopener" href="https://gitlab.com/klinamen0">Gitlab</a>, <a target="_blank" rel="noopener" href="https://github.com/danielnemenyi">GitHub</a> and <a target="_blank" rel="noopener" href="https://twitter.com/DanielNemenyi">Twitter</a> (direct messages are open 👋).
-  </p>
+  <p>My academic writing tends to involve conceptual histories of
+	self-regulating systems. My doctoral thesis, <em>What is an
+	internet? Norbert Wiener and the society of control</em> (2019),
+	was completed at the <a target="_blank" rel="noopener"
+	href="https://www.kingston.ac.uk/faculties/kingston-school-of-art/research-and-innovation/crmep/">Centre
+	for Research in Modern European Philosophy (CRMEP)</a>, Kingston
+	University, as was my MA in Modern European Philosophy. I am an
+	editor of <a target="_blank" rel="noopener"
+	href="https://www.radicalphilosophy.com/">Radical Philosophy</a>
+	and a visiting fellow at the <a target="_blank" rel="noopener"
+	href="https://www.kcl.ac.uk/people/daniel-nemenyi">Department of
+	Digital Humanities, KCL</a>. I enjoy writing about and in code,
+	especially in LaTeX, Emacs Lisp and Python. My pronouns are
+	he/him. I'm sporadically active on <a target="_blank"
+	rel="noopener" href="https://gitlab.com/klinamen0">Gitlab</a>, <a
+	target="_blank" rel="noopener"
+	href="https://github.com/danielnemenyi">GitHub</a> and <a
+	target="_blank" rel="noopener"
+	href="https://twitter.com/DanielNemenyi">Twitter</a>. </p>
 
   <div>
 
