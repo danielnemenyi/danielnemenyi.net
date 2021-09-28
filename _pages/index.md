@@ -73,7 +73,7 @@ permalink: /
     <div class="grid-element">
       <p><b>Publications 🖊</b></p>
 
-      {% assign publications_limit = 5 %}
+      {% assign publications_limit = 10 %}
       {% for publication in site.data.publications limit: publications_limit %}
       <div class="list-entry">
         <div>
