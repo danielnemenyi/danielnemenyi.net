@@ -4,6 +4,12 @@
   year_from: 2012
   year_to:
 
+- name: La toupie folle (The mad spinning top)
+  description_html: "As the project's research assistant, I built its <a href='https://en.wikipedia.org/wiki/Zettelkasten'>Zettlekasten</a>-esque website"
+  url: "https://latoupiefolle.org/"
+  year_from: 2022
+  year_to: 2023
+
 - name: Okey_Kompyuter
   description_html: "Developing Yiddish tech, including a keyboard layout for Windows and macOS. Formerly called Shretl.org"
   url: https://okey.kompyuter.net/
